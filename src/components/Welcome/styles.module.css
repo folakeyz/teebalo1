@@ -1,0 +1,302 @@
+*{
+    box-sizing: border-box;
+  }
+.backdrop{
+    width: 100%;
+    height: 100vh;
+    background:linear-gradient(90deg, rgba(0,0,0, 0.9), rgba(0,0,0, 0.9)),url(../../assets/ma.jfif);
+    background-size: cover;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 10% 90%;
+}
+.icons{
+    width: 10%;
+    height: 100vh;
+    padding:1rem;
+    position: absolute;
+}
+.ilogo{
+    width: 100%;
+    height: 40vh;
+    text-align: center;
+    margin-bottom: 1rem;
+    color: white;
+}
+.ilogo a{
+    width: 100%;
+  display: inline-block;
+  color: goldenrod;
+  line-height: 3rem;
+  font-size: 2rem;
+}
+.ilogo img{
+    width: 100%;
+}
+.contents{
+    width: 100%;
+    height: 100vh;
+    padding:2rem;
+}
+.circle{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 0 auto;
+    background: white;
+    text-align: center;
+    padding-top: 2rem;
+    margin-bottom: 1rem;
+}
+.circle img{
+    width: 50%;
+}
+
+.links{
+    width: 60%;
+    height: 25rem;
+    padding: 5rem;
+    padding-top: 0;
+    margin: 0 auto;
+}
+.links h1{
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+}
+.btn{
+    display: block;
+    height: 3.5rem;
+    width: 100%;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    overflow: hidden;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    font-size: 14px;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 0px 1px 2px -1px rgba(0,0,0,0.02),
+    0px 2px 4px -2px rgba(0,0,0,0.08),
+    0px 4px 8px -4px rgba(0,0,0,0.10),
+    0px 8px 16px -8px rgba(0,0,0,0.12);
+}
+.btn:hover{
+    transform: scale(1.1);
+}
+.blue{
+    background: linear-gradient(180deg, rgba(47, 124, 178, 1), rgba(10, 93, 148, 1));
+}
+.magenta{
+    background: linear-gradient(180deg, rgba(219, 38, 195, 1), rgba(166, 18, 146, 1));
+}
+.gold{
+    background: linear-gradient(180deg, rgba(234, 136, 8, 1), rgba(179, 105, 9, 1));
+}
+.green{
+    background: linear-gradient(180deg, rgba(97, 176, 67, 1), rgba(58, 148, 22, 1));
+}
+.crimson{
+    background: linear-gradient(180deg, rgba(221, 45, 68, 1), rgba(179, 22, 43, 1));
+}
+.purple{
+    background: linear-gradient(180deg, rgba(86, 20, 218, 1), rgba(66, 15, 168, 1));
+}
+
+
+@media (max-height: 500px) {
+    .grid{
+        display: grid;
+        grid-template-columns: 100% 100%;
+    }
+    .contents{
+        width: 100%;
+        height: 100vh;
+        padding:.5rem;
+    }
+    .icons{
+        width: 100%;
+        height: 5rem;
+        padding:.3rem;
+        position: absolute;
+    }
+    .ilogo{
+        width: 50%;
+        height: 4rem;
+       float: left;
+       text-align: left;
+    }
+    .ilogo img{
+        width: 30%;
+        max-height: 4rem;
+    }
+    .ilogo a{
+        width: 20%;
+      display: block;
+      color: goldenrod;
+      line-height: 3rem;
+      font-size: 2rem;
+      float: left;
+    }
+    .links h1{
+      font-size: 1.5rem;
+    }
+    .links{
+        width: 90%;
+        height: 25rem;
+        padding: .5rem;
+        padding-top: 3rem;
+        margin: 0 auto;
+    }
+  }
+  
+  @media (max-width: 640px) {
+    .grid{
+        display: grid;
+        grid-template-columns: 100% 100%;
+    }
+    .contents{
+        width: 100%;
+        height: 100vh;
+        padding:.5rem;
+    }
+    .icons{
+        width: 100%;
+        height: 5rem;
+        padding:.3rem;
+        position: absolute;
+    }
+    .ilogo{
+        width: 50%;
+        height: 4rem;
+       float: left;
+       text-align: left;
+    }
+    .ilogo img{
+        width: 30%;
+        max-height: 4rem;
+    }
+    .ilogo a{
+        width: 20%;
+      display: block;
+      color: goldenrod;
+      line-height: 3rem;
+      font-size: 2rem;
+      float: left;
+    }
+    .links h1{
+      font-size: 1.5rem;
+    }
+    .links{
+        width: 90%;
+        height: 25rem;
+        padding: .5rem;
+        padding-top: 3rem;
+        margin: 0 auto;
+    }
+  }
+  
+  @media (max-height: 600px) {
+    .grid{
+        display: grid;
+        grid-template-columns: 100% 100%;
+    }
+    .contents{
+        width: 100%;
+        height: 100vh;
+        padding:.5rem;
+    }
+    .icons{
+        width: 100%;
+        height: 5rem;
+        padding:.3rem;
+        position: absolute;
+    }
+    .ilogo{
+        width: 50%;
+        height: 4rem;
+       float: left;
+       text-align: left;
+    }
+    .ilogo img{
+        width: 30%;
+        max-height: 4rem;
+    }
+    .ilogo a{
+        width: 20%;
+      display: block;
+      color: goldenrod;
+      line-height: 3rem;
+      font-size: 2rem;
+      float: left;
+    }
+    .links h1{
+      font-size: 1.5rem;
+    }
+    .links{
+        width: 90%;
+        height: 25rem;
+        padding: .5rem;
+        padding-top: 3rem;
+        margin: 0 auto;
+    }
+  }
+  
+  @media (max-width: 640px) {
+
+    .grid{
+        display: grid;
+        grid-template-columns: 100% 100%;
+    }
+    .contents{
+        width: 100%;
+        height: 100vh;
+        padding:.5rem;
+    }
+    .icons{
+        width: 100%;
+        height: 5rem;
+        padding:.3rem;
+        position: absolute;
+    }
+    .ilogo{
+        width: 50%;
+        height: 4rem;
+       float: left;
+       text-align: left;
+    }
+    .ilogo img{
+        width: 30%;
+        max-height: 4rem;
+    }
+    .ilogo a{
+        width: 20%;
+      display: block;
+      color: goldenrod;
+      line-height: 3rem;
+      font-size: 2rem;
+      float: left;
+    }
+    .links h1{
+      font-size: 1.5rem;
+    }
+    .links{
+        width: 90%;
+        height: 25rem;
+        padding: .5rem;
+        padding-top: 3rem;
+        margin: 0 auto;
+    }   
+  }
+  @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+   
+    .links{
+        width: 90%;
+        height: 25rem;
+        padding: .5rem;
+        padding-top: 3rem;
+        margin: 0 auto;
+    }      
+  }

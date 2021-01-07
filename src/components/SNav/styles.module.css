@@ -1,0 +1,408 @@
+.navbar{
+    width: 100%;
+    height: auto;
+    display: inline-block;
+    background:#C9A000;
+    padding: .5rem 5rem;
+    box-shadow: 0px 1px 2px -1px rgba(0,0,0,0.02),
+    0px 2px 4px -2px rgba(0,0,0,0.08),
+    0px 4px 8px -4px rgba(0,0,0,0.10),
+    0px 8px 16px -8px rgba(0,0,0,0.12);
+    position: fixed;
+    z-index: 9999;
+}
+.bar{
+    display: none;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 20% 50% 30%;
+}
+.logo{
+    width: 100%;
+    height: 4rem;
+    border-right: 1px solid goldenrod;
+    text-align: center;
+    padding-top: .5rem;
+}
+.logo img{
+    width: 60%;
+}
+.navLinks{
+    width: 100%;
+    height: 4rem;
+    padding: .5rem;
+    padding-left: 2rem;
+}
+.navLinks ul{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+.navLinks ul li{
+    width: 20%;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    float: left;
+    padding-top: 1rem;
+}
+.navLinks ul li a{
+   text-decoration: none;
+   font-size: 12px;
+   color: white;
+}
+.reg{
+    width: 100%;
+    height: 4rem;
+    padding: .5rem;
+    padding-left: 2rem;
+}
+
+.btn{
+    display: block;
+    height: 3rem;
+    width: 40%;
+    float: left;
+    margin-left: 1rem;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    overflow: hidden;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    font-size: 14px;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 0px 1px 2px -1px rgba(0,0,0,0.02),
+    0px 2px 4px -2px rgba(0,0,0,0.08),
+    0px 4px 8px -4px rgba(0,0,0,0.10),
+    0px 8px 16px -8px rgba(0,0,0,0.12);
+}
+.purple{
+    background: linear-gradient(180deg, rgba(86, 20, 218, 1), rgba(66, 15, 168, 1));
+}
+.gold{
+    background: linear-gradient(180deg, rgba(234, 136, 8, 1), rgba(179, 105, 9, 1));
+}
+
+
+@media (max-height: 500px) {
+    .navbar{
+        padding: 0rem;
+    }
+    .grid{
+        display: inline-block;
+        grid-template-columns: 100% 100% 100%;
+    }
+    .bar{
+        width: 100px;
+        height: 4rem;
+        display: block;
+        color: white;
+        float: right;
+    }
+    .logo img{
+        width: 40%;
+    }
+    .navLinks{
+        width: 100%;
+        height: 4rem;
+        padding-left: 0rem;
+        padding: 1rem;
+        display: none;
+    }
+    .navLinks{
+        width: 100%;
+        height: 4rem;
+        padding-left: 0rem;
+        padding: 1rem;
+        display: none;
+    }
+    .navLinks ul li{
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        list-style: none;
+        float: left;
+        padding-top: 1rem;
+        text-align: left;
+    }
+    .navActive ul li{
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        list-style: none;
+        float: left;
+        padding-top: 1rem;
+        text-align: left;
+    }
+    .navActive ul li a{
+        color: goldenrod;
+        text-decoration: none;
+    }
+    .btn{
+        display: block;
+        height: 2rem;
+        width: 40%;
+        margin: 0;
+        float: left;
+        padding: .3rem;
+        margin-left: 0;
+        }
+        .reg{
+            width: 100%;
+            height: 4rem;
+            padding: .5rem;
+            padding-left: 0rem;
+            display: none;
+        }
+        .regActive{
+            width: 100%;
+            height: 4rem;
+            padding: .5rem;
+            padding-left: 0rem;
+            display: block;
+        }
+  }
+  
+  @media (max-width: 640px) {
+    .navbar{
+        padding: 0rem;
+    }
+    .grid{
+        display: inline-block;
+        grid-template-columns: 100% 100% 100%;
+    }
+    .bar{
+        width: 100px;
+        height: 4rem;
+        display: block;
+        color: white;
+        float: right;
+    }
+    .logo img{
+        width: 40%;
+    }
+    .navLinks{
+        width: 100%;
+        height: 4rem;
+        padding-left: 0rem;
+        padding: 1rem;
+        display: none;
+    }
+    .navLinks{
+        width: 100%;
+        height: 4rem;
+        padding-left: 0rem;
+        padding: 1rem;
+        display: none;
+    }
+    .navLinks ul li{
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        list-style: none;
+        float: left;
+        padding-top: 1rem;
+        text-align: left;
+    }
+    .navActive ul li{
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        list-style: none;
+        float: left;
+        padding-top: 1rem;
+        text-align: left;
+    }
+    .navActive ul li a{
+        color: goldenrod;
+        text-decoration: none;
+    }
+    .btn{
+        display: block;
+        height: 2rem;
+        width: 40%;
+        margin: 0;
+        float: left;
+        padding: .3rem;
+        margin-left: 0;
+        }
+        .reg{
+            width: 100%;
+            height: 4rem;
+            padding: .5rem;
+            padding-left: 0rem;
+            display: none;
+        }
+        .regActive{
+            width: 100%;
+            height: 4rem;
+            padding: .5rem;
+            padding-left: 0rem;
+            display: block;
+        }
+  }
+  
+  @media (max-height: 600px) {
+    .navbar{
+        padding: 0rem;
+    }
+    .grid{
+        display: inline-block;
+        grid-template-columns: 100% 100% 100%;
+    }
+    .bar{
+        width: 100px;
+        height: 4rem;
+        display: block;
+        color: white;
+        float: right;
+    }
+    .logo img{
+        width: 40%;
+    }
+    .navLinks{
+        width: 100%;
+        height: 4rem;
+        padding-left: 0rem;
+        padding: 1rem;
+        display: none;
+    }
+    .navLinks{
+        width: 100%;
+        height: 4rem;
+        padding-left: 0rem;
+        padding: 1rem;
+        display: none;
+    }
+    .navLinks ul li{
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        list-style: none;
+        float: left;
+        padding-top: 1rem;
+        text-align: left;
+    }
+    .navActive ul li{
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        list-style: none;
+        float: left;
+        padding-top: 1rem;
+        text-align: left;
+    }
+    .navActive ul li a{
+        color: goldenrod;
+        text-decoration: none;
+    }
+    .btn{
+        display: block;
+        height: 2rem;
+        width: 40%;
+        margin: 0;
+        float: left;
+        padding: .3rem;
+        margin-left: 0;
+        }
+        .reg{
+            width: 100%;
+            height: 4rem;
+            padding: .5rem;
+            padding-left: 0rem;
+            display: none;
+        }
+        .regActive{
+            width: 100%;
+            height: 4rem;
+            padding: .5rem;
+            padding-left: 0rem;
+            display: block;
+        }
+  }
+  
+  @media (max-width: 640px) {
+    .navbar{
+        padding: 0rem;
+    }
+    .grid{
+        display: inline-block;
+        grid-template-columns: 100% 100% 100%;
+    }
+    .bar{
+        width: 100px;
+        height: 4rem;
+        display: block;
+        color: white;
+        float: right;
+    }
+    .logo img{
+        width: 40%;
+    }
+    .navLinks{
+        width: 100%;
+        height: 4rem;
+        padding-left: 0rem;
+        padding: 1rem;
+        display: none;
+    }
+    .navLinks{
+        width: 100%;
+        height: 4rem;
+        padding-left: 0rem;
+        padding: 1rem;
+        display: none;
+    }
+    .navLinks ul li{
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        list-style: none;
+        float: left;
+        padding-top: 1rem;
+        text-align: left;
+    }
+    .navActive ul li{
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        list-style: none;
+        float: left;
+        padding-top: 1rem;
+        text-align: left;
+    }
+    .navActive ul li a{
+        color: goldenrod;
+        text-decoration: none;
+    }
+    .btn{
+        display: block;
+        height: 2rem;
+        width: 40%;
+        margin: 0;
+        float: left;
+        padding: .3rem;
+        margin-left: 0;
+        }
+        .reg{
+            width: 100%;
+            height: 4rem;
+            padding: .5rem;
+            padding-left: 0rem;
+            display: none;
+        }
+        .regActive{
+            width: 100%;
+            height: 4rem;
+            padding: .5rem;
+            padding-left: 0rem;
+            display: block;
+        }
+  }
+  @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+   
+        
+  }

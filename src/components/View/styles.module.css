@@ -1,0 +1,106 @@
+.course{
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    padding: 2rem;
+    padding-top: 8rem;
+}
+.courses{
+    padding: 1rem 6rem;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 48% 48%;
+    grid-gap:20px ;
+}
+.card{
+    width: 100%;
+    height: 30rem;
+    background: white;
+    box-shadow: 0px 1px 2px 0px rgba(0,0,0,0.02);
+}
+
+.card p{
+    text-align: justify;
+}
+
+.card img{
+    width: 90%;
+    max-height: 30rem;
+}
+.label h6{
+    color: crimson;
+    font-size: 20px;
+}
+.btn{
+    display: block;
+    height: 3rem;
+    width: 40%;
+    float: left;
+    padding: 1rem;
+    overflow: hidden;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    font-size: 11px;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 0px 1px 2px -1px rgba(0,0,0,0.02),
+    0px 2px 4px -2px rgba(0,0,0,0.08),
+    0px 4px 8px -4px rgba(0,0,0,0.10),
+    0px 8px 16px -8px rgba(0,0,0,0.12);
+}
+.purple{
+    background: linear-gradient(180deg, rgba(86, 20, 218, 1), rgba(66, 15, 168, 1));
+}
+.gold{
+    background: linear-gradient(180deg, rgba(221, 45, 68, 1), rgba(179, 22, 43, 1));
+}
+
+@media (max-height: 500px) {
+    .courses{
+        padding: 1rem;
+    }
+    .grid{
+        display: inline-block;
+        grid-template-columns: 100% 100%;
+        grid-gap:10px ;
+    }
+}
+
+@media (max-width: 640px) {
+    .courses{
+        padding: 1rem;
+    }
+    .grid{
+        display: inline-block;
+        grid-template-columns: 100% 100%;
+        grid-gap:10px ;
+    }
+}
+
+@media (max-height: 600px) {
+    .courses{
+        padding: 1rem;
+    }
+    .grid{
+        display: inline-block;
+        grid-template-columns: 100% 100%;
+        grid-gap:10px ;
+    }
+}
+
+@media (max-width: 640px) {
+    .courses{
+        padding: 1rem;
+    }
+    .grid{
+        display: inline-block;
+        grid-template-columns: 100% 100%;
+        grid-gap:10px ;
+    }
+}
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+ 
+      
+}

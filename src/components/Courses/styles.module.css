@@ -1,0 +1,134 @@
+.course{
+    width: 100%;
+    height: auto;
+    display: inline-block;
+    padding: 2rem;
+    padding-top: 8rem;
+}
+.courses{
+    padding: 1rem 6rem;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 32% 32% 32%;
+    grid-gap:20px ;
+}
+.card{
+    width: 100%;
+    height: 26rem;
+    background: white;
+    box-shadow: 0px 1px 2px 0px rgba(0,0,0,0.02);
+    border-radius: 10px;
+    overflow: hidden;
+}
+.img{
+    width: 100%;
+    height: 15rem;
+    overflow: hidden;
+}
+.img img{
+    width: 100%;
+    height: 25rem;
+    max-height: 25rem;
+}
+.text{
+    width: 100%;
+    height: 6rem;
+    padding: .5rem;
+}
+
+.text h6{
+    margin-top: 0;
+    font-size: 16px;
+    color: crimson;
+}
+.label{
+    width: 100%;
+    height: 2rem;
+    text-align: center;
+}
+.label h4{
+    font-size: 12px;
+    margin-bottom: 0;
+    font-weight: 300;
+}
+.btnBlock{
+    width: 100%;
+    height: 3rem;
+    margin: 0 auto;
+}
+.btn{
+    display: block;
+    height: 2rem;
+    width: 40%;
+    float: left;
+    margin-left: 1rem;
+    padding: .5rem;
+    overflow: hidden;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    font-size: 11px;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 0px 1px 2px -1px rgba(0,0,0,0.02),
+    0px 2px 4px -2px rgba(0,0,0,0.08),
+    0px 4px 8px -4px rgba(0,0,0,0.10),
+    0px 8px 16px -8px rgba(0,0,0,0.12);
+}
+.purple{
+    background: linear-gradient(180deg, rgba(86, 20, 218, 1), rgba(66, 15, 168, 1));
+}
+.gold{
+    background: linear-gradient(180deg, rgba(221, 45, 68, 1), rgba(179, 22, 43, 1));
+}
+
+
+
+@media (max-height: 500px) {
+    .courses{
+        padding: 1rem;
+    }
+    .grid{
+        display: inline-block;
+        grid-template-columns: 100% 100% 100%;
+        grid-gap:20px ;
+    } 
+}
+
+@media (max-width: 640px) {
+    .courses{
+        padding: 1rem;
+    }
+    .grid{
+        display: inline-block;
+        grid-template-columns: 100% 100% 100%;
+        grid-gap:20px ;
+    }
+}
+
+@media (max-height: 600px) {
+    .courses{
+        padding: 1rem;
+    }
+    .grid{
+        display: inline-block;
+        grid-template-columns: 100% 100% 100%;
+        grid-gap:20px ;
+    }
+}
+
+@media (max-width: 640px) {
+    .courses{
+        padding: 1rem;
+    }
+    .grid{
+        display: inline-block;
+        grid-template-columns: 100% 100% 100%;
+        grid-gap:20px ;
+    }
+}
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+ 
+      
+}
